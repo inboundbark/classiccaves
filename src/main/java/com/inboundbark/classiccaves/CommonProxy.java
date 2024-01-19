@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.inboundbark.classiccaves;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -12,8 +12,12 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        MyMod.LOG.info(Config.greeting);
-        MyMod.LOG.info("I am MyMod at version " + Tags.VERSION);
+        if (Config.enabled) {
+            ClassicCaves.LOG.info("Classic Caves version " + Tags.VERSION + " is enabled!");
+        } else {
+            ClassicCaves.LOG.info("Classic Caves version " + Tags.VERSION + " is disabled :-(");
+        }
+
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)

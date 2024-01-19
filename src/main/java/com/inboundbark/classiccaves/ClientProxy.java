@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.inboundbark.classiccaves;
 
 public class ClientProxy extends CommonProxy {
 
