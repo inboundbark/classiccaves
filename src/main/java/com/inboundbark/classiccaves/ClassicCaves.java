@@ -13,7 +13,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 @Mod(modid = ClassicCaves.MODID, version = Tags.VERSION, name = "Classic Caves", acceptedMinecraftVersions = "[1.7.10]")
 public class ClassicCaves {
 
-    public static final String MODID = "ClassicCaves";
+    public static final String MODID = "classicCaves";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
     @SidedProxy(
