@@ -6,7 +6,8 @@
   "mixins": [
     "CaveCarverMixin",
     "MineshaftStructureMixin",
-    "SurfaceChunkGeneratorMixin"
+    "SurfaceChunkGeneratorMixin",
+    "RavineCarverMixin"
   ],
   "client": [
   ],
