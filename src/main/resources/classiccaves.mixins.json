@@ -4,7 +4,8 @@
   "package": "net.inboundbark.classiccaves.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CaveCarverMixin"
+    "CaveCarverMixin",
+    "MineshaftStructureMixin"
   ],
   "client": [
   ],
