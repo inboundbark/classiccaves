@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.inboundbark.classiccaves.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CaveCarverMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
