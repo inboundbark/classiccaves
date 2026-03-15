@@ -1,11 +1,11 @@
 package net.inboundbark.classiccaves.mixins;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
-import net.minecraft.world.gen.carver.RavineCarver;
+import net.minecraft.world.gen.carver.RavineWorldCarver;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
-@Mixin(RavineCarver.class)
+@Mixin(RavineWorldCarver.class)
 public class RavineCarverMixin {
     @ModifyExpressionValue(
             method = "carveRavine",
