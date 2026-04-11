@@ -12,12 +12,7 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        if (Config.enabled) {
-            ClassicCaves.LOG.info("Classic Caves version " + Tags.VERSION + " is enabled!");
-        } else {
-            ClassicCaves.LOG.info("Classic Caves version " + Tags.VERSION + " is disabled :-(");
-        }
-
+        ClassicCaves.LOG.info("Classic Caves version " + Tags.VERSION + " is loaded!");
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)

@@ -1,6 +1,5 @@
 package com.inboundbark.classiccaves.mixins;
 
-import com.inboundbark.classiccaves.Config;
 import net.minecraft.world.gen.structure.MapGenMineshaft;
 
 import org.objectweb.asm.Opcodes;
@@ -9,6 +8,8 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import com.inboundbark.classiccaves.Config;
 
 @Mixin(MapGenMineshaft.class)
 public class MapGenMineshaftMixin {

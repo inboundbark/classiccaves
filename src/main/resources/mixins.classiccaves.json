@@ -7,7 +7,9 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MapGenCavesMixin",
-    "MapGenMineshaftMixin"
+    "MapGenMineshaftMixin",
+    "MapGenRavineMixin",
+    "ChunkProviderGenerateMixin"
   ],
   "client": [],
   "server": []
