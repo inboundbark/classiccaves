@@ -6,7 +6,8 @@
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MapGenCavesMixin"
+    "MapGenCavesMixin",
+    "MapGenMineshaftMixin"
   ],
   "client": [],
   "server": []
