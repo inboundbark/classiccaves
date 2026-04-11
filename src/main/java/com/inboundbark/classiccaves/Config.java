@@ -6,13 +6,13 @@ import net.minecraftforge.common.config.Configuration;
 
 public class Config {
 
-    public static boolean enabled = true;
+    public static boolean higherCaveFrequency = true;
 
     public static void synchronizeConfiguration(File configFile) {
         Configuration configuration = new Configuration(configFile);
 
-        enabled = configuration
-            .getBoolean("enableClassicCaves", Configuration.CATEGORY_GENERAL, enabled, "enable pre r1.7 caves?");
+        higherCaveFrequency = configuration
+            .getBoolean("higherCaveFrequency", Configuration.CATEGORY_GENERAL, higherCaveFrequency, "enable pre r1.7 cave frequency?");
 
         if (configuration.hasChanged()) {
             configuration.save();
